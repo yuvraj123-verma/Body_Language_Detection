@@ -10,7 +10,7 @@ In this project, I leveraged Mediapipe python library to estimate both facial an
 With that data I built a custom pose classification model that allows us to decode what a person might be conveying with their body language with acceptable accuracy.
 The classes I selected for my body language detection are namely thumbs up,victory,happy,peace,thank you and live long.
 
-Dataset creation and model building process: The dataset (landmark.csv) was created by extracting the facial and body landmark coordinates which were rendered
+Dataset creation and model building process: The dataset (coords.csv) was created by extracting the facial and body landmark coordinates which were rendered
 on the frames(images) captured by my VideoCapture device(webcam) in real time using OpenCV. 
 
 Training process: Since the problem falls in the domain of Mutli-Class classification, after splitting the data into train and test, I used the Random Forest Classifier 
