@@ -8,7 +8,7 @@ Before going forward with the project, create a new python environment and insta
 ## :memo: Decription
 In this project, I leveraged Mediapipe python library to estimate both facial and body landmarks using the holistic mediapipe solution. 
 With that data I built a custom pose classification model that allows us to decode what a person might be conveying with their body language with acceptable accuracy.
-The classes I selected for my body language detection are namely thumbs up,victory,happy,peace,thank you and live long.
+The classes I selected for my body language detection are namely victory, happy and sad.
 
 Dataset creation and model building process: The dataset (coords.csv) was created by extracting the facial and body landmark coordinates which were rendered
 on the frames(images) captured by my VideoCapture device(webcam) in real time using OpenCV. 
